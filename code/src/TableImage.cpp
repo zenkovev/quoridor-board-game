@@ -10,7 +10,7 @@ void TableImage::construct_images() {
 	m_Vector_Image_Figure.reserve(5);
 	for (int i = 0; i < 5; ++i) {
 		std::stringstream ss;
-		ss << "../code/image/Figure";
+		ss << FIGURE_IMAGE_PATH << "Figure";
 		char c = '0' + i;
 		ss << c;
 		ss << ',';

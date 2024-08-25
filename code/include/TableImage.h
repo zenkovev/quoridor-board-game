@@ -9,6 +9,8 @@
 #include <iostream>
 #include <cassert>
 
+#define FIGURE_IMAGE_PATH "./code/image/"
+
 class TableImage {
 
 //fields and methods located in logical order
